@@ -6,12 +6,37 @@ body {
 a {
   text-decoration: none;
 }
-ul {
+ul,
+ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.button {
+  cursor: pointer;
+}
+.container {
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 /* Header */
 .header {
   background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -55,6 +80,8 @@ ul {
 /* Hero */
 .hero {
   background-color: #2e2f42;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -74,12 +101,30 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 .hero-btn:focus,
 .hero-btn:hover {
   background-color: #404bbf;
 }
 /* Main*/
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .main-team-item {
   background-color: #ffffff;
 }
@@ -134,6 +179,8 @@ ul {
 }
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-colored {
   color: #f4f4fd;
