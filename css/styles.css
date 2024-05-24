@@ -122,6 +122,7 @@ img {
   color: #fff;
   margin-bottom: 48px;
   max-width: 496px;
+  margin-left: 316px;
 }
 .hero-btn {
   font-weight: 500;
@@ -202,7 +203,7 @@ section {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-.visually-hidden {
+.features-title {
   margin-bottom: 8px;
 }
 /* Team */
