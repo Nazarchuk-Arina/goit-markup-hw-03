@@ -202,9 +202,6 @@ section {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-.features-title {
-  margin-bottom: 8px;
-}
 /* Team */
 .team-title {
   margin-bottom: 72px;
