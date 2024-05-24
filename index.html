@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo"
             >Web<span class="colored">Studio</span></a
@@ -34,8 +34,8 @@
             <li><a href="" class="header-menu-link">Contacts</a></li>
           </ul>
         </nav>
-        <address class="header-contacts">
-          <ul>
+        <address class="adress">
+          <ul class="header-contacts">
             <li>
               <a href="mailto:info@devstudio.com" class="header-contacts-link"
                 >info@devstudio.com</a
@@ -62,9 +62,9 @@
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Our features</h2>
-          <ul>
-            <li>
-              <h3 class="main-subtitles">Strategy</h3>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="main-subtitles features-subtitles">Strategy</h3>
               <p class="main-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -97,47 +97,51 @@
       <!-- Section 3 -->
       <section class="main-team">
         <div class="container">
-          <h2 class="main-titles">Our Team</h2>
-          <ul>
+          <h2 class="main-titles team-title">Our Team</h2>
+          <ul class="main-team-list">
             <li class="main-team-item">
               <img
+                class="main-team-image"
                 src="./images-mark.jpg"
                 alt="Mark's photo"
                 width="264"
                 height="260"
               />
-              <h3 class="main-subtitles">Mark Guerrero</h3>
-              <p class="main-text">Product Designer</p>
+              <h3 class="main-subtitles main-team-subtitle">Mark Guerrero</h3>
+              <p class="main-text main-team-text">Product Designer</p>
             </li>
             <li class="main-team-item">
               <img
+                class="main-team-image"
                 src="./images-tom.jpg"
                 alt="Tom's photo"
                 width="264"
                 height="260"
               />
-              <h3 class="main-subtitles">Tom Ford</h3>
-              <p class="main-text">Frontend Developer</p>
+              <h3 class="main-subtitles main-team-subtitle">Tom Ford</h3>
+              <p class="main-text main-team-text">Frontend Developer</p>
             </li>
             <li class="main-team-item">
               <img
+                class="main-team-image"
                 src="./images-camila.jpg"
                 alt="Camila's photo"
                 width="264"
                 height="260"
               />
-              <h3 class="main-subtitles">Camila Garcia</h3>
-              <p class="main-text">Marketing</p>
+              <h3 class="main-subtitles main-team-subtitle">Camila Garcia</h3>
+              <p class="main-text main-team-text">Marketing</p>
             </li>
             <li class="main-team-item">
               <img
+                class="main-team-image"
                 src="./images-daniel.jpg"
                 alt="Daniel's photo"
                 width="264"
                 height="260"
               />
-              <h3 class="main-subtitles">Daniel Wilson</h3>
-              <p class="main-text">UI Designer</p>
+              <h3 class="main-subtitles main-team-subtitle">Daniel Wilson</h3>
+              <p class="main-text main-team-text">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -145,57 +149,79 @@
       <!-- Section 4 -->
       <section class="portfolio">
         <div class="container">
-          <h2 class="main-titles">Our Portfolio</h2>
-          <ul>
-            <li>
-              <img src="./images-app.jpg" alt="Banking App photo" width="360" />
-              <h3 class="main-subtitles">Banking App</h3>
-              <p class="main-text">App</p>
-            </li>
-            <li>
+          <h2 class="main-titles main-portfolio-title">Our Portfolio</h2>
+          <ul class="main-portfolio-list">
+            <li class="main-portfolio-item">
               <img
+                class="main-portfolio-image"
+                src="./images-app.jpg"
+                alt="Banking App photo"
+                width="360"
+              />
+              <h3 class="main-subtitles main-portfolio-subtitle">
+                Banking App
+              </h3>
+              <p class="main-text main-portfolio-text">App</p>
+            </li>
+            <li class="main-portfolio-item">
+              <img
+                class="main-portfolio-image"
                 src="./images-mrk1.jpg"
                 alt="Cashless Payment photo"
                 width="360"
               />
-              <h3 class="main-subtitles">Cashless Payment</h3>
-              <p class="main-text">Marketing</p>
+              <h3 class="main-subtitles main-portfolio-subtitle">
+                Cashless Payment
+              </h3>
+              <p class="main-text main-portfolio-text">Marketing</p>
             </li>
-            <li>
+            <li class="main-portfolio-item">
               <img
+                class="main-portfolio-image"
                 src="./images-app2.jpg"
                 alt="Meditation App photo"
                 width="360"
               />
-              <h3 class="main-subtitles">Meditation App</h3>
-              <p class="main-text">App</p>
+              <h3 class="main-subtitles main-portfolio-subtitle">
+                Meditation App
+              </h3>
+              <p class="main-text main-portfolio-text">App</p>
             </li>
-            <li>
+            <li class="main-portfolio-item">
               <img
+                class="main-portfolio-image"
                 src="./images-mrk2.jpg"
                 alt="Taxi Service photo"
                 width="360"
               />
-              <h3 class="main-subtitles">Taxi Service</h3>
-              <p class="main-text">Marketing</p>
+              <h3 class="main-subtitles main-portfolio-subtitle">
+                Taxi Service
+              </h3>
+              <p class="main-text main-portfolio-text">Marketing</p>
             </li>
-            <li>
+            <li class="main-portfolio-item">
               <img
+                class="main-portfolio-image"
                 src="./images-design.jpg"
                 alt="Screen Illustrations photo"
                 width="360"
               />
-              <h3 class="main-subtitles">Screen Illustrations</h3>
-              <p class="main-text">Design</p>
+              <h3 class="main-subtitles main-portfolio-subtitle">
+                Screen Illustrations
+              </h3>
+              <p class="main-text main-portfolio-text">Design</p>
             </li>
-            <li>
+            <li class="main-portfolio-item">
               <img
+                class="main-portfolio-image"
                 src="./images-mrk3.jpg"
                 alt="Online Courses photo"
                 width="360"
               />
-              <h3 class="main-subtitles">Online Courses</h3>
-              <p class="main-text">Marketing</p>
+              <h3 class="main-subtitles main-portfolio-subtitle">
+                Online Courses
+              </h3>
+              <p class="main-text main-portfolio-text">Marketing</p>
             </li>
           </ul>
         </div>
