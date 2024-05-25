@@ -150,14 +150,16 @@ section {
   padding-bottom: 120px;
 }
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
-  margin-bottom: 8px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .main-titles {
   font-weight: 700;
@@ -195,7 +197,7 @@ section {
   gap: 24px;
 }
 .features-subtitles {
-  margin-bottom: 8;
+  margin-bottom: 8px;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
