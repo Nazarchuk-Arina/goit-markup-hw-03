@@ -185,7 +185,6 @@ section {
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 .main-team {
@@ -248,15 +247,9 @@ section {
 }
 .main-portfolio-image {
   margin: 0 auto;
-  margin-bottom: 32px;
 }
 .main-portfolio-subtitle {
   margin-bottom: 8px;
-  margin-left: 16px;
-}
-.main-portfolio-text {
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 .prtf {
   padding: 32px 16px;
